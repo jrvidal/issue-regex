@@ -44,11 +44,11 @@ issueRegex().exec('Fixes avajs/ava#1023');
 
 Returns a `RegExp` for matching issue references.
 
-### options
+#### options
 
 Type: `object`
 
-#### additionalPrefix
+##### additionalPrefix
 
 Support for references like `GH-123` can be added manually. Adding a prefix will still match the #-based references:
 
